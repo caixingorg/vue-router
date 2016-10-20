@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="indexapp">
     <h1>{{ index }}</h1>
   </div>
 </template>
@@ -13,3 +13,11 @@ export default {
   }
 }
 </script>
+<style lang="sass">
+#indexapp{
+  background:red;
+  h1{
+    font-size:normal;
+  }
+}
+</style>
