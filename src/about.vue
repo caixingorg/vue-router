@@ -11,6 +11,14 @@ export default {
     return {
       about: 'Hello about!'
     }
+  },
+  methods:{
+    incrementTotal() {
+      this.total += 1
+    },
+    decrementTotal() {
+      this.total -= 1
+    }
   }
 }
 </script>

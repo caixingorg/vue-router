@@ -1,8 +1,9 @@
-import Vue from 'vue/dist/vue.js'
-import VueRouter from 'vue-router'
-import App from './App.vue'
-import Index from './index.vue'
-import About from './about.vue'
+import Vue from 'vue/dist/vue.js';
+import VueRouter from 'vue-router';
+import App from './App.vue';
+import Index from './index.vue';
+import About from './about.vue';
+import conterParents from './conterParents.vue';
 
 Vue.use(VueRouter)
 
@@ -12,6 +13,7 @@ const router = new VueRouter({
   routes: [
     { path: '/index', component: Index },
     { path: '/about', component: About },
+    { path: '/conterParents', component: conterParents },
   ]
 })
 
