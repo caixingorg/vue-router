@@ -14,8 +14,7 @@ export default {
   props: ['number'],
   methods:{
      increment (){
-      //  console.log(this.$props.number)
-    	  // this.$props.number += 1÷
+       console.log(this.$parent.set("activeColor","blue"))
         this.$emit('increment')
      
      }

@@ -6,6 +6,7 @@ import About from './about.vue';
 import conterParents from './conterParents.vue';
 
 Vue.use(VueRouter)
+Vue.config.devtools = true;
 
 const router = new VueRouter({
   mode: 'history',

@@ -14,7 +14,8 @@ export default {
   props: ['number'],
   methods:{
       decrement () {
-        console.log(this.$props)
+      
+        console.log(this)
         //  number -= 1
          this.$emit('decrement')
       }
